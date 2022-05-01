@@ -47,6 +47,7 @@ namespace Solucoes_fq
             this.btnComeçar.TabIndex = 0;
             this.btnComeçar.Text = "Começar";
             this.btnComeçar.UseVisualStyleBackColor = false;
+            this.btnComeçar.Click += new System.EventHandler(this.btnComeçar_Click);
             // 
             // lblTitulo
             // 
@@ -97,7 +98,9 @@ namespace Solucoes_fq
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.btnComeçar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "StartScreen";
+            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Soluções";
             this.ResumeLayout(false);

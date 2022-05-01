@@ -1,0 +1,11 @@
+C:\Users\admin\Desktop\Pastas e etc\c#\solucoes_fq\Solucoes_fq\bin\Debug\Solucoes_fq.exe.config
+C:\Users\admin\Desktop\Pastas e etc\c#\solucoes_fq\Solucoes_fq\bin\Debug\Solucoes_fq.exe
+C:\Users\admin\Desktop\Pastas e etc\c#\solucoes_fq\Solucoes_fq\bin\Debug\Solucoes_fq.pdb
+C:\Users\admin\Desktop\Pastas e etc\c#\solucoes_fq\Solucoes_fq\obj\Debug\Solucoes_fq.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Pastas e etc\c#\solucoes_fq\Solucoes_fq\obj\Debug\Solucoes_fq.StartScreen.resources
+C:\Users\admin\Desktop\Pastas e etc\c#\solucoes_fq\Solucoes_fq\obj\Debug\Solucoes_fq.Properties.Resources.resources
+C:\Users\admin\Desktop\Pastas e etc\c#\solucoes_fq\Solucoes_fq\obj\Debug\Solucoes_fq.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\Pastas e etc\c#\solucoes_fq\Solucoes_fq\obj\Debug\Solucoes_fq.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Pastas e etc\c#\solucoes_fq\Solucoes_fq\obj\Debug\Solucoes_fq.exe
+C:\Users\admin\Desktop\Pastas e etc\c#\solucoes_fq\Solucoes_fq\obj\Debug\Solucoes_fq.pdb
+C:\Users\admin\Desktop\Pastas e etc\c#\solucoes_fq\Solucoes_fq\obj\Debug\Solucoes_fq.lab.resources

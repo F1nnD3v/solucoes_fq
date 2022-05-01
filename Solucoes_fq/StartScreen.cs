@@ -16,5 +16,13 @@ namespace Solucoes_fq
         {
             InitializeComponent();
         }
+
+        private void btnComeçar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            lab lab = new lab();
+            lab.Show();
+        }
     }
 }
