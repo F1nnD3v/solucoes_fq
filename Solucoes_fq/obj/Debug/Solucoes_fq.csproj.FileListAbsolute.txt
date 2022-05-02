@@ -21,3 +21,14 @@ C:\Users\uauauTiagO\Desktop\solucoes_fq\Solucoes_fq\obj\Debug\Solucoes_fq.csproj
 C:\Users\uauauTiagO\Desktop\solucoes_fq\Solucoes_fq\obj\Debug\Solucoes_fq.csproj.CoreCompileInputs.cache
 C:\Users\uauauTiagO\Desktop\solucoes_fq\Solucoes_fq\obj\Debug\Solucoes_fq.exe
 C:\Users\uauauTiagO\Desktop\solucoes_fq\Solucoes_fq\obj\Debug\Solucoes_fq.pdb
+C:\Users\35193\Desktop\pastas e etc\c#\Solucoes_fq\Solucoes_fq\bin\Debug\Solucoes_fq.exe.config
+C:\Users\35193\Desktop\pastas e etc\c#\Solucoes_fq\Solucoes_fq\bin\Debug\Solucoes_fq.exe
+C:\Users\35193\Desktop\pastas e etc\c#\Solucoes_fq\Solucoes_fq\bin\Debug\Solucoes_fq.pdb
+C:\Users\35193\Desktop\pastas e etc\c#\Solucoes_fq\Solucoes_fq\obj\Debug\Solucoes_fq.csproj.AssemblyReference.cache
+C:\Users\35193\Desktop\pastas e etc\c#\Solucoes_fq\Solucoes_fq\obj\Debug\Solucoes_fq.lab.resources
+C:\Users\35193\Desktop\pastas e etc\c#\Solucoes_fq\Solucoes_fq\obj\Debug\Solucoes_fq.StartScreen.resources
+C:\Users\35193\Desktop\pastas e etc\c#\Solucoes_fq\Solucoes_fq\obj\Debug\Solucoes_fq.Properties.Resources.resources
+C:\Users\35193\Desktop\pastas e etc\c#\Solucoes_fq\Solucoes_fq\obj\Debug\Solucoes_fq.csproj.GenerateResource.cache
+C:\Users\35193\Desktop\pastas e etc\c#\Solucoes_fq\Solucoes_fq\obj\Debug\Solucoes_fq.csproj.CoreCompileInputs.cache
+C:\Users\35193\Desktop\pastas e etc\c#\Solucoes_fq\Solucoes_fq\obj\Debug\Solucoes_fq.exe
+C:\Users\35193\Desktop\pastas e etc\c#\Solucoes_fq\Solucoes_fq\obj\Debug\Solucoes_fq.pdb

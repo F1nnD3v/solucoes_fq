@@ -13,7 +13,7 @@ namespace Solucoes_fq
     public partial class lab : Form
     {
         int solucao, soluto;
-        float massaMolar = 0;
+        double massaMolar = 0;
         public lab()
         {
             InitializeComponent();
@@ -21,11 +21,25 @@ namespace Solucoes_fq
         }
         private void btnAdd_Click(object sender, EventArgs e)
         {
+
             if(solucao < 2000)
             {
+                
                 solucao += 200;
+                if(cboxSolucoes.Text != "")
+                {
+                    lblSaturacao.Text = "Saturação: " + CalcularConcentracao(massaMolar, soluto, solucao);
+                }
                 lblSolucao.Text = "Quantidade de solução: " + solucao + "ml";
-                CalcularConcentracao(massaMolar, soluto, solucao);
+                if(soluto > solucao)
+                {
+                    lblSaturado.Show();
+
+                }
+                else
+                {
+                    lblSaturado.Hide();
+                }
             }
         }
 
@@ -34,20 +48,41 @@ namespace Solucoes_fq
             if(solucao > 200)
             {
                 solucao -= 200;
-                lblSolucao.Text = "Quantidade de solução: " + solucao + "ml";
-                if(CalcularConcentracao(massaMolar, soluto, solucao))
+                if (cboxSolucoes.Text != "")
                 {
-
+                    lblSaturacao.Text = "Saturação: " + CalcularConcentracao(massaMolar, soluto, solucao);
+                }
+                lblSolucao.Text = "Quantidade de solução: " + solucao + "ml";
+                if (soluto > solucao)
+                {
+                    lblSaturado.Show();
+                }
+                else
+                {
+                    lblSaturado.Hide();
                 }
             }
         }
 
         private void btnAddSoluto_Click(object sender, EventArgs e)
         {
-            if(soluto < 1000)
+            if(soluto < 1000 && cboxSolucoes.Text != "")
             {
                 soluto += 100;
+                if (cboxSolucoes.Text != "")
+                {
+                    lblSaturacao.Text = "Saturação: " + CalcularConcentracao(massaMolar, soluto, solucao);
+                }
                 lblSoluto.Text = "Quantidade de soluto: " + soluto + " moles";
+            }
+
+            if (soluto > solucao)
+            {
+                lblSaturado.Show();
+            }
+            else
+            {
+                lblSaturado.Hide();
             }
         }
 
@@ -58,30 +93,74 @@ namespace Solucoes_fq
             {
                 case "Cloreto de cobalto":
                     BackColor = Color.PaleVioletRed;
+                    massaMolar = 129.839;
                     break;
                 case "Nitrato de cobalto":
                     BackColor = Color.Red;
+                    massaMolar = 182.943;
                     break;
                 case "Cloreto de níquel":
                     BackColor = Color.Green;
+                    massaMolar = 129.5994;
                     break;
                 case "Sulfato de cobre":
                     BackColor = Color.Blue;
+                    massaMolar = 159.609;
                     break;
+                case "Dicromato de Potássio":
+                    BackColor = Color.Orange;
+                    massaMolar = 294.185;
+                    break;
+                case "Permanganato de Potássio":
+                    BackColor = Color.Purple;
+                    massaMolar = 158.034;
+                    break;
+                default:
+                    BackColor = Color.LightBlue;
+                    massaMolar = 0;
+                    break;
+            }
+
+            lblSaturacao.Text = "Saturação: 0";
+            soluto = 0;
+            lblSoluto.Text = "Quantidade de soluto: " + soluto + " moles";
+
+            if (soluto > solucao)
+            {
+                lblSaturado.Show();
+            }
+            else
+            {
+                lblSaturado.Hide();
             }
         }
 
         private void btnRemoveSoluto_Click(object sender, EventArgs e)
         {
-            if(soluto > 0)
+            if(soluto > 0 && cboxSolucoes.Text != "")
             {
                 soluto -= 100;
+                if (cboxSolucoes.Text != "")
+                {
+                    lblSaturacao.Text = "Saturação: " + CalcularConcentracao(massaMolar, soluto, solucao);
+                }
                 lblSoluto.Text = "Quantidade de soluto: " + soluto + " moles";
+            }
+
+            if (soluto > solucao)
+            {
+                lblSaturado.Show();
+            }
+            else
+            {
+                lblSaturado.Hide();
             }
         }
 
         private void lab_Load(object sender, EventArgs e)
         {
+            lblSaturacao.Text = "Saturação: 0";
+            lblSaturado.Hide();
             solucao = 200;
             soluto = 0;
             lblSolucao.Text = "Quantidade de solução: " + solucao + "ml";
@@ -91,11 +170,20 @@ namespace Solucoes_fq
             {
                 cboxSolucoes.Items.Add(solu[i]);
             }
+
+            if (soluto > solucao)
+            {
+                lblSaturado.Show();
+            }
+            else
+            {
+                lblSaturado.Hide();
+            }
         }
 
-        public float CalcularConcentracao(float massaMolar, int quantSoluto, int quantSolucao)
+        public double CalcularConcentracao(double massaMolar, int quantSoluto, int quantSolucao)
         {
-            float concentracao = 0;
+            double concentracao = 0;
             concentracao = quantSoluto / (massaMolar * quantSolucao);
             return concentracao;
         }
