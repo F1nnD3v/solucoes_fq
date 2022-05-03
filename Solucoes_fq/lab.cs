@@ -181,6 +181,22 @@ namespace Solucoes_fq
             }
         }
 
+        private void lab_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            StartScreen startScreen = new StartScreen();
+            startScreen.Show();
+            lab lab = new lab();
+            lab.Close();
+        }
+
+        private void lblVoltar_Click(object sender, EventArgs e)
+        {
+            StartScreen startScreen = new StartScreen();
+            startScreen.Show();
+            lab lab = new lab();
+            lab.Close();
+        }
+
         public double CalcularConcentracao(double massaMolar, int quantSoluto, int quantSolucao)
         {
             double concentracao = 0;

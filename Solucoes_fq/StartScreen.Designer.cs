@@ -73,6 +73,7 @@ namespace Solucoes_fq
             this.btnFormula.TabIndex = 2;
             this.btnFormula.Text = "Fórmula";
             this.btnFormula.UseVisualStyleBackColor = false;
+            this.btnFormula.Click += new System.EventHandler(this.btnFormula_Click);
             // 
             // btnSair
             // 
@@ -86,6 +87,7 @@ namespace Solucoes_fq
             this.btnSair.TabIndex = 3;
             this.btnSair.Text = "Sair";
             this.btnSair.UseVisualStyleBackColor = false;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // StartScreen
             // 

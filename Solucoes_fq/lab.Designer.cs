@@ -38,12 +38,13 @@ namespace Solucoes_fq
             this.btnAddSoluto = new System.Windows.Forms.Button();
             this.lblSaturado = new System.Windows.Forms.Label();
             this.lblSaturacao = new System.Windows.Forms.Label();
+            this.lblVoltar = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnAddSolucao
             // 
-            this.btnAddSolucao.Location = new System.Drawing.Point(33, 207);
-            this.btnAddSolucao.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAddSolucao.Location = new System.Drawing.Point(11, 211);
+            this.btnAddSolucao.Margin = new System.Windows.Forms.Padding(2);
             this.btnAddSolucao.Name = "btnAddSolucao";
             this.btnAddSolucao.Size = new System.Drawing.Size(56, 19);
             this.btnAddSolucao.TabIndex = 4;
@@ -53,8 +54,8 @@ namespace Solucoes_fq
             // 
             // btnRemoveSolucao
             // 
-            this.btnRemoveSolucao.Location = new System.Drawing.Point(33, 231);
-            this.btnRemoveSolucao.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRemoveSolucao.Location = new System.Drawing.Point(11, 235);
+            this.btnRemoveSolucao.Margin = new System.Windows.Forms.Padding(2);
             this.btnRemoveSolucao.Name = "btnRemoveSolucao";
             this.btnRemoveSolucao.Size = new System.Drawing.Size(56, 19);
             this.btnRemoveSolucao.TabIndex = 5;
@@ -65,7 +66,7 @@ namespace Solucoes_fq
             // lblSolucao
             // 
             this.lblSolucao.AutoSize = true;
-            this.lblSolucao.Location = new System.Drawing.Point(175, 210);
+            this.lblSolucao.Location = new System.Drawing.Point(80, 214);
             this.lblSolucao.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSolucao.Name = "lblSolucao";
             this.lblSolucao.Size = new System.Drawing.Size(151, 13);
@@ -76,8 +77,8 @@ namespace Solucoes_fq
             // 
             this.cboxSolucoes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboxSolucoes.FormattingEnabled = true;
-            this.cboxSolucoes.Location = new System.Drawing.Point(333, 205);
-            this.cboxSolucoes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cboxSolucoes.Location = new System.Drawing.Point(269, 211);
+            this.cboxSolucoes.Margin = new System.Windows.Forms.Padding(2);
             this.cboxSolucoes.Name = "cboxSolucoes";
             this.cboxSolucoes.Size = new System.Drawing.Size(92, 21);
             this.cboxSolucoes.TabIndex = 7;
@@ -86,7 +87,7 @@ namespace Solucoes_fq
             // lblSoluto
             // 
             this.lblSoluto.AutoSize = true;
-            this.lblSoluto.Location = new System.Drawing.Point(429, 210);
+            this.lblSoluto.Location = new System.Drawing.Point(407, 214);
             this.lblSoluto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSoluto.Name = "lblSoluto";
             this.lblSoluto.Size = new System.Drawing.Size(142, 13);
@@ -95,8 +96,8 @@ namespace Solucoes_fq
             // 
             // btnRemoveSoluto
             // 
-            this.btnRemoveSoluto.Location = new System.Drawing.Point(643, 232);
-            this.btnRemoveSoluto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRemoveSoluto.Location = new System.Drawing.Point(585, 233);
+            this.btnRemoveSoluto.Margin = new System.Windows.Forms.Padding(2);
             this.btnRemoveSoluto.Name = "btnRemoveSoluto";
             this.btnRemoveSoluto.Size = new System.Drawing.Size(56, 19);
             this.btnRemoveSoluto.TabIndex = 10;
@@ -106,8 +107,8 @@ namespace Solucoes_fq
             // 
             // btnAddSoluto
             // 
-            this.btnAddSoluto.Location = new System.Drawing.Point(643, 207);
-            this.btnAddSoluto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAddSoluto.Location = new System.Drawing.Point(585, 208);
+            this.btnAddSoluto.Margin = new System.Windows.Forms.Padding(2);
             this.btnAddSoluto.Name = "btnAddSoluto";
             this.btnAddSoluto.Size = new System.Drawing.Size(56, 19);
             this.btnAddSoluto.TabIndex = 9;
@@ -119,7 +120,7 @@ namespace Solucoes_fq
             // 
             this.lblSaturado.AutoSize = true;
             this.lblSaturado.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSaturado.Location = new System.Drawing.Point(329, 78);
+            this.lblSaturado.Location = new System.Drawing.Point(268, 85);
             this.lblSaturado.Name = "lblSaturado";
             this.lblSaturado.Size = new System.Drawing.Size(93, 24);
             this.lblSaturado.TabIndex = 11;
@@ -128,18 +129,30 @@ namespace Solucoes_fq
             // lblSaturacao
             // 
             this.lblSaturacao.AutoSize = true;
-            this.lblSaturacao.Location = new System.Drawing.Point(242, 144);
+            this.lblSaturacao.Location = new System.Drawing.Point(147, 148);
             this.lblSaturacao.Name = "lblSaturacao";
             this.lblSaturacao.Size = new System.Drawing.Size(35, 13);
             this.lblSaturacao.TabIndex = 12;
             this.lblSaturacao.Text = "label1";
+            // 
+            // lblVoltar
+            // 
+            this.lblVoltar.AutoSize = true;
+            this.lblVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVoltar.Location = new System.Drawing.Point(24, 22);
+            this.lblVoltar.Name = "lblVoltar";
+            this.lblVoltar.Size = new System.Drawing.Size(34, 25);
+            this.lblVoltar.TabIndex = 13;
+            this.lblVoltar.Text = "←";
+            this.lblVoltar.Click += new System.EventHandler(this.lblVoltar_Click);
             // 
             // lab
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(668, 450);
+            this.Controls.Add(this.lblVoltar);
             this.Controls.Add(this.lblSaturacao);
             this.Controls.Add(this.lblSaturado);
             this.Controls.Add(this.btnRemoveSoluto);
@@ -149,8 +162,12 @@ namespace Solucoes_fq
             this.Controls.Add(this.lblSolucao);
             this.Controls.Add(this.btnRemoveSolucao);
             this.Controls.Add(this.btnAddSolucao);
+            this.MaximizeBox = false;
             this.Name = "lab";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "lab";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.lab_FormClosed);
             this.Load += new System.EventHandler(this.lab_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -167,5 +184,6 @@ namespace Solucoes_fq
         private System.Windows.Forms.Button btnAddSoluto;
         private System.Windows.Forms.Label lblSaturado;
         private System.Windows.Forms.Label lblSaturacao;
+        private System.Windows.Forms.Label lblVoltar;
     }
 }

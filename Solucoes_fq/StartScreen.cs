@@ -24,5 +24,16 @@ namespace Solucoes_fq
             lab lab = new lab();
             lab.Show();
         }
+
+        private void btnFormula_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("A fórmula para saber a concentração é:\nM = m/MM * V \nou \nM = n/V\nM = concentração molar\nm = massa(g)\nMM = massa molar\nV = volume(L)\nn = número de mol");
+            
+        }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
