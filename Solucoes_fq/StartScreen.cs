@@ -35,5 +35,15 @@ namespace Solucoes_fq
         {
             Application.Exit();
         }
+
+        private void btnCreditos_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Este trabalho foi realizado por:\nRicardo Silva nº3016\nTiago Duarte nº3019\nBruno Duarte nº3002\nFlávio Erhan nº3005");
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

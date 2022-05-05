@@ -33,6 +33,10 @@ namespace Solucoes_fq
             this.lblTitulo = new System.Windows.Forms.Label();
             this.btnFormula = new System.Windows.Forms.Button();
             this.btnSair = new System.Windows.Forms.Button();
+            this.btnCreditos = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnComeçar
@@ -55,7 +59,7 @@ namespace Solucoes_fq
             this.lblTitulo.BackColor = System.Drawing.Color.Transparent;
             this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitulo.ForeColor = System.Drawing.Color.White;
-            this.lblTitulo.Location = new System.Drawing.Point(23, 28);
+            this.lblTitulo.Location = new System.Drawing.Point(23, 37);
             this.lblTitulo.Name = "lblTitulo";
             this.lblTitulo.Size = new System.Drawing.Size(109, 25);
             this.lblTitulo.TabIndex = 1;
@@ -81,7 +85,7 @@ namespace Solucoes_fq
             this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSair.ForeColor = System.Drawing.Color.White;
-            this.btnSair.Location = new System.Drawing.Point(12, 289);
+            this.btnSair.Location = new System.Drawing.Point(12, 329);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(120, 47);
             this.btnSair.TabIndex = 3;
@@ -89,12 +93,70 @@ namespace Solucoes_fq
             this.btnSair.UseVisualStyleBackColor = false;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
+            // btnCreditos
+            // 
+            this.btnCreditos.BackColor = System.Drawing.Color.Transparent;
+            this.btnCreditos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCreditos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCreditos.ForeColor = System.Drawing.Color.White;
+            this.btnCreditos.Location = new System.Drawing.Point(12, 270);
+            this.btnCreditos.Name = "btnCreditos";
+            this.btnCreditos.Size = new System.Drawing.Size(120, 47);
+            this.btnCreditos.TabIndex = 4;
+            this.btnCreditos.Text = "Créditos";
+            this.btnCreditos.UseVisualStyleBackColor = false;
+            this.btnCreditos.Click += new System.EventHandler(this.btnCreditos_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Black;
+            this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(604, 442);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(134, 25);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Turma PSI5";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Black;
+            this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(464, 481);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(274, 25);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Disciplina Fisica-quimica";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Black;
+            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(554, 405);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(184, 25);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Prof. Vitor Vilela";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
             // StartScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Solucoes_fq.Properties.Resources.IUPAC_feature_image_1400x600;
             this.ClientSize = new System.Drawing.Size(755, 516);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnCreditos);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnFormula);
             this.Controls.Add(this.lblTitulo);
@@ -116,6 +178,10 @@ namespace Solucoes_fq
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Button btnFormula;
         private System.Windows.Forms.Button btnSair;
+        private System.Windows.Forms.Button btnCreditos;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
 
